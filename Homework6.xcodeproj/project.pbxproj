@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0495006228EF2D81007FE38A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0495006128EF2D81007FE38A /* main.cpp */; };
+		0495006928EF3EEB007FE38A /* tennis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0495006828EF3EEB007FE38A /* tennis.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		0495005E28EF2D81007FE38A /* Homework6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework6; sourceTree = BUILT_PRODUCTS_DIR; };
-		0495006128EF2D81007FE38A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0495006128EF2D81007FE38A /* vend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vend.cpp; sourceTree = "<group>"; };
+		0495006828EF3EEB007FE38A /* tennis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tennis.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		0495006028EF2D81007FE38A /* Homework6 */ = {
 			isa = PBXGroup;
 			children = (
-				0495006128EF2D81007FE38A /* main.cpp */,
+				0495006828EF3EEB007FE38A /* tennis.cpp */,
+				0495006128EF2D81007FE38A /* vend.cpp */,
 			);
 			path = Homework6;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0495006228EF2D81007FE38A /* main.cpp in Sources */,
+				0495006928EF3EEB007FE38A /* tennis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
